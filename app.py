@@ -548,7 +548,7 @@ def handle_scrip_selected(data):
     symbol = scrip
 
 
-# Runner & debugger
+# runner and the debugger
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
